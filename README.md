@@ -20,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    irb(main):001:0> require 'punctuate'
+    => true
+    irb(main):002:0> "Your résumé’s a non–encyclopædia".punctuate!
+    => "Your résumé's a non-encyclopædia"
 
 ## Development
 
