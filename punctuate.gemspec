@@ -6,8 +6,8 @@ require 'punctuate/version'
 Gem::Specification.new do |spec|
   spec.name          = "punctuate"
   spec.version       = Punctuate::VERSION
-  spec.authors       = ["Victor Ng KP"]
-  spec.email         = ["khuenping@gmail.com"]
+  spec.authors       = ["Victor Ng KP", "Jack Wong"]
+  spec.email         = ["khuenping@gmail.com", "jackyhwong91@gmail.com"]
 
   spec.summary       = %q{Converts Unicode or non-ASCII punctuation and symbols to nearest ASCII punctuation and symbols.}
   spec.homepage      = "https://github.com/victorngkp/punctuate"

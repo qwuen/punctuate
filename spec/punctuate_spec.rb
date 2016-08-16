@@ -5,7 +5,7 @@ describe Punctuate do
     expect(Punctuate::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it "converts a symbol to another" do
+    expect("Hello World⟩✱≤".punctuate!).to eql "Hello World>*<="
   end
 end
