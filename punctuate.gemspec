@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["khuenping@gmail.com", "jackyhwong91@gmail.com"]
 
   spec.summary       = %q{Converts Unicode or non-ASCII punctuation and symbols to nearest ASCII punctuation and symbols.}
-  spec.homepage      = "https://github.com/victorngkp/punctuate"
+  spec.homepage      = "https://github.com/qwuen/punctuate"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
