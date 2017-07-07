@@ -7,12 +7,12 @@ Converts Unicode or non-ASCII punctuation and symbols to nearest ASCII punctuati
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'punctuate'
+gem "punctuate"
 ```
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
@@ -20,10 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-    irb(main):001:0> require 'punctuate'
+    irb(main):001:0> require "punctuate"
     => true
-    irb(main):002:0> "Your résumé’s a non–encyclopædia".punctuate!
-    => "Your résumé's a non-encyclopædia"
+    irb(main):002:0> "Your résumé’s a 100٪ non–encyclopædia❢".punctuate
+    => "Your résumé's a 100% non-encyclopædia!"
 
 ## Development
 

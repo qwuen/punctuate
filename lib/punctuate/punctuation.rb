@@ -1,5 +1,5 @@
 String.class_eval do
-  def punctuate!
+  def punctuate
     formatted_word = ""
 
     self.each_char do |char|
